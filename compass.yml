@@ -1,0 +1,28 @@
+name: fork-cloudposse-terraform-aws-transit-gateway
+id: ari:cloud:compass:83673fa7-fd28-4f4a-9738-f584064570a7:component/db43f86d-85fe-42e1-954d-457f5a4082b8/7303fed8-d14f-4c33-8e94-2d0ba7d50fad
+description: Terraform module to provision AWS Transit Gateway, AWS Resource Access Manager (AWS RAM) Resource, and share the Transit Gateway with the Organization or another AWS Account.
+configVersion: 1
+typeId: SERVICE
+fields:
+  tier: 4
+links:
+  - name: null
+    type: REPOSITORY
+    url: https://github.com/verygood-ops/fork-cloudposse-terraform-aws-transit-gateway
+relationships:
+  DEPENDS_ON: []
+labels:
+  - source:github
+customFields:
+  - name: Logging
+    type: text
+    value: null
+  - name: Metrics
+    type: text
+    value: null
+  - name: Service Name
+    type: text
+    value: null
+  - name: Tracing
+    type: text
+    value: null
